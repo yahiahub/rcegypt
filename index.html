@@ -415,17 +415,21 @@ html.pdf footer{padding:30px 0 0}
 }
 
 /* Responsive Side Spacing */
+/* Main website container */
 .wrap {
-    width: 100%;
-    max-width: 1180px;
-    margin-inline: auto;
-    padding-inline: clamp(16px, 4vw, 48px);
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
 }
 
 /* Mobile */
 @media (max-width: 520px) {
     .wrap {
-        padding-inline: 18px;
+        padding-inline: 18px !important;
     }
 }
 
